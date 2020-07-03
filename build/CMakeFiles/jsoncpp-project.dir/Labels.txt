@@ -1,0 +1,13 @@
+# Target labels
+ jsoncpp-project
+# Source files and their labels
+/root/work/3/solc/build/CMakeFiles/jsoncpp-project
+/root/work/3/solc/build/CMakeFiles/jsoncpp-project.rule
+/root/work/3/solc/build/CMakeFiles/jsoncpp-project-complete.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-install.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-mkdir.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-download.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-update.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-patch.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-configure.rule
+/root/work/3/solc/build/deps/src/jsoncpp-project-stamp/jsoncpp-project-build.rule

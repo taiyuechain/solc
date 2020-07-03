@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/work/3/solc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cc10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cc10.dir/build.make CMakeFiles/cmTC_6cc10.dir/build
+make[1]: Entering directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cc10.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6cc10.dir/CheckSymbolExists.c.o   -c /root/work/3/solc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6cc10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cc10.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6cc10.dir/CheckSymbolExists.c.o  -o cmTC_6cc10 
+CMakeFiles/cmTC_6cc10.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6cc10.dir/build.make:97: recipe for target 'cmTC_6cc10' failed
+make[1]: *** [cmTC_6cc10] Error 1
+make[1]: Leaving directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6cc10/fast' failed
+make: *** [cmTC_6cc10/fast] Error 2
+
+File /root/work/3/solc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/work/3/solc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_359a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_359a4.dir/build.make CMakeFiles/cmTC_359a4.dir/build
+make[1]: Entering directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_359a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_359a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_359a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_359a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_359a4.dir/CheckFunctionExists.c.o  -o cmTC_359a4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_359a4.dir/build.make:97: recipe for target 'cmTC_359a4' failed
+make[1]: *** [cmTC_359a4] Error 1
+make[1]: Leaving directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_359a4/fast' failed
+make: *** [cmTC_359a4/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test fmacro-prefix-map=/root/work/3/solc=/solidity failed with the following output:
+Change Dir: /root/work/3/solc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ac1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ac1b.dir/build.make CMakeFiles/cmTC_5ac1b.dir/build
+make[1]: Entering directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ac1b.dir/src.cxx.o
+/usr/bin/c++    -Dfmacro-prefix-map=/root/work/3/solc=/solidity   -fmacro-prefix-map=/root/work/3/solc=/solidity -std=c++1z -o CMakeFiles/cmTC_5ac1b.dir/src.cxx.o -c /root/work/3/solc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fmacro-prefix-map=/root/work/3/solc=/solidity'
+CMakeFiles/cmTC_5ac1b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5ac1b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5ac1b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ac1b/fast' failed
+make: *** [cmTC_5ac1b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test Wpessimizing-move failed with the following output:
+Change Dir: /root/work/3/solc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_283c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_283c4.dir/build.make CMakeFiles/cmTC_283c4.dir/build
+make[1]: Entering directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_283c4.dir/src.cxx.o
+/usr/bin/c++    -DWpessimizing-move   -Wpessimizing-move -std=c++1z -o CMakeFiles/cmTC_283c4.dir/src.cxx.o -c /root/work/3/solc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wpessimizing-move'
+CMakeFiles/cmTC_283c4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_283c4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_283c4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_283c4/fast' failed
+make: *** [cmTC_283c4/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test Wredundant-move failed with the following output:
+Change Dir: /root/work/3/solc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea6bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea6bf.dir/build.make CMakeFiles/cmTC_ea6bf.dir/build
+make[1]: Entering directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea6bf.dir/src.cxx.o
+/usr/bin/c++    -DWredundant-move   -Wredundant-move -std=c++1z -o CMakeFiles/cmTC_ea6bf.dir/src.cxx.o -c /root/work/3/solc/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wredundant-move'; did you mean '-Wredundant-decls'?
+CMakeFiles/cmTC_ea6bf.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ea6bf.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ea6bf.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/root/work/3/solc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea6bf/fast' failed
+make: *** [cmTC_ea6bf/fast] Error 2
+
+Source file was:
+int main() { return 0; }

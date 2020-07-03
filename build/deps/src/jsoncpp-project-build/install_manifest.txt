@@ -1,0 +1,15 @@
+/root/work/3/solc/build/deps/lib/cmake/jsoncpp/jsoncppConfig.cmake
+/root/work/3/solc/build/deps/lib/cmake/jsoncpp/jsoncppConfig-release.cmake
+/root/work/3/solc/build/deps/lib/cmake/jsoncpp/jsoncppConfigVersion.cmake
+/root/work/3/solc/build/deps/lib/libjsoncpp.a
+/root/work/3/solc/build/deps/include/json/allocator.h
+/root/work/3/solc/build/deps/include/json/assertions.h
+/root/work/3/solc/build/deps/include/json/autolink.h
+/root/work/3/solc/build/deps/include/json/config.h
+/root/work/3/solc/build/deps/include/json/forwards.h
+/root/work/3/solc/build/deps/include/json/json.h
+/root/work/3/solc/build/deps/include/json/json_features.h
+/root/work/3/solc/build/deps/include/json/reader.h
+/root/work/3/solc/build/deps/include/json/value.h
+/root/work/3/solc/build/deps/include/json/version.h
+/root/work/3/solc/build/deps/include/json/writer.h

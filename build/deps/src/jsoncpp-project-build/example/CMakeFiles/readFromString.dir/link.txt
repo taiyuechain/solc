@@ -1,0 +1,1 @@
+/usr/bin/c++   -DJSON_USE_INT64_DOUBLE_CONVERSION -Wall -Wconversion -Wshadow -Wextra -pedantic -Wall -Wextra  -O3 -DNDEBUG  -rdynamic CMakeFiles/readFromString.dir/readFromString/readFromString.cpp.o  -o readFromString ../src/lib_json/libjsoncpp.a 

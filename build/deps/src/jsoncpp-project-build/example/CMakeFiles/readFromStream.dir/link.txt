@@ -1,0 +1,1 @@
+/usr/bin/c++   -DJSON_USE_INT64_DOUBLE_CONVERSION -Wall -Wconversion -Wshadow -Wextra -pedantic -Wall -Wextra  -O3 -DNDEBUG  -rdynamic CMakeFiles/readFromStream.dir/readFromStream/readFromStream.cpp.o  -o readFromStream ../src/lib_json/libjsoncpp.a 

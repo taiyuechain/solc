@@ -1,0 +1,3 @@
+/usr/local/bin/solidity-upgrade
+/usr/local/bin/yul-phaser
+/usr/local/bin/solc
